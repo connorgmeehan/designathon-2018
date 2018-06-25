@@ -1,0 +1,3 @@
+*.o
+*.so
+./designathon_rbpi/bin/designathon_rbpi
