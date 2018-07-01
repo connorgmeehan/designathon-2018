@@ -29,17 +29,40 @@
         {
             "name": "Linux",
             "includePath": [
-                "~/openFrameworks_v0.10.0/libs/openFrameworks/",
-                "~/openFrameworks_v0.10.0/addons/ofxOpenCv/src/",
-                "${workspaceFolder}/src"
+                "${workspaceFolder}",
+                "/usr/include/c++/6",
+                "/usr/include/x86_64-linux-gnu/c++/6",
+                "/usr/include/c++/6/backward",
+                "/usr/lib/gcc/x86_64-linux-gnu/6/include",
+                "/usr/local/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include",
+                "${workspaceRoot}",
+                "/home/connorgmeehan/openFrameworks_v0.10.0/libs/openFrameworks",
+                "/home/connorgmeehan/openFrameworks_v0.10.0/addons/ofxOpenCv/src",
+                "${workspaceFolder}/src",
+                "/home/connorgmeehan/openFrameworks_v0.10.0/addons/ofxMSAInteractiveObject/src"
             ],
             "defines": [],
             "intelliSenseMode": "clang-x64",
             "browse": {
                 "path": [
-                "~/openFrameworks_v0.10.0/libs/openFrameworks/",
-                "~/openFrameworks_v0.10.0/addons/ofxOpenCv/src/",
-                "${workspaceFolder}/src"
+                    "${workspaceFolder}",
+                    "/usr/include/c++/6",
+                    "/usr/include/x86_64-linux-gnu/c++/6",
+                    "/usr/include/c++/6/backward",
+                    "/usr/lib/gcc/x86_64-linux-gnu/6/include",
+                    "/usr/local/include",
+                    "/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed",
+                    "/usr/include/x86_64-linux-gnu",
+                    "/usr/include",
+                    "${workspaceRoot}",
+                    "/home/connorgmeehan/openFrameworks_v0.10.0/libs/openFrameworks",
+                    "/home/connorgmeehan/openFrameworks_v0.10.0/addons/ofxOpenCv/src",
+                    "/home/connorgmeehan/openFrameworks_v0.10.0/addons/ofxOpenCv/libs",
+                    "/home/connorgmeehan/openFrameworks_v0.10.0/addons/ofxMSAInteractiveObject",
+                    "${workspaceFolder}/src"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""

@@ -2,16 +2,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) Compile/Run Debug",
+            "name": "(gdb) Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/bin/designathon_rbpi_debug",
+            "program": "${workspaceRoot}/bin/psyphon_visual_debug",
             "args": [],
             "stopAtEntry": false,
-            "preLaunchTask": "make_debug",
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "preLaunchTask": "Build Debug",
             "externalConsole": true,
             "MIMode": "gdb",
             "setupCommands": [
@@ -23,15 +21,14 @@
             ]
         },
         {
-            "name": "(gdb) Compile/Run Release",
+            "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/bin/designathon_rbpi",
+            "program": "${workspaceRoot}/bin/psyphon_visual",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
             "environment": [],
-            "preLaunchTask": "Build Release",
             "externalConsole": true,
             "MIMode": "gdb",
             "setupCommands": [
