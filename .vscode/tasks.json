@@ -6,7 +6,16 @@
         {
             "taskName": "build",
             "type": "shell",
-            "command": "ofrun.sh",
+            "command": "make -j3",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "taskName": "build debug",
+            "type": "shell",
+            "command": "make -j3",
             "group": {
                 "kind": "build",
                 "isDefault": true
