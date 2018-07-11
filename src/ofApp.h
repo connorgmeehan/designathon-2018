@@ -1,9 +1,19 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ArtnetCommunicator.h"
+
+#include "ofxCv.h"
 
 class ofApp : public ofBaseApp{
 	public:
+
+		ArtnetCommunicator artnet_communicator;
+		ofFbo fbo;
+
+		ofShader shader;
+		bool bDoStrobe = false;
+
 		void setup();
 		void update();
 		void draw();

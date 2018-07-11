@@ -22,3 +22,6 @@ openFrameworks app for the memories lighting display to run on raspberry pi.  Lo
 8. Once you're done and it's merged run `git checkout origin/master` to reset back to the master directory
 9. Start from the beginning for the next feature/issue.
 
+## Committing changes on VS Code (pure joy)
+
+1. 
