@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<group>
+	<lkMaxLevel>3</lkMaxLevel>
+	<lkMaxFeatures>200</lkMaxFeatures>
+	<lkQualityLevel>0.01</lkQualityLevel>
+	<lkMinDistance>4</lkMinDistance>
+	<lkWinSize>8</lkWinSize>
+	<Use_Farneback>1</Use_Farneback>
+	<fbPyrScale>0.5</fbPyrScale>
+	<fbLevels>4</fbLevels>
+	<fbIterations>2</fbIterations>
+	<fbPolyN>7</fbPolyN>
+	<fbPolySigma>1.5</fbPolySigma>
+	<fbUseGaussian>0</fbUseGaussian>
+	<winSize>32</winSize>
+	<flow_color>255, 255, 255, 255</flow_color>
+	<flow_line_width>1</flow_line_width>
+	<flow_blur>1</flow_blur>
+	<flow_blur_amount>1</flow_blur_amount>
+	<flow_blur_itterations>1</flow_blur_itterations>
+	<contours_active>0</contours_active>
+	<contour_show_labels>1</contour_show_labels>
+	<contour_threshold>15</contour_threshold>
+</group>

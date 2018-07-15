@@ -54,18 +54,18 @@ class ArtnetCommunicator {
 };
 #endif
 
-#ifndef INCLUDE_OLA_CLIENT_OLACLIENT_H_
+#ifndef OLA_INSTALLED
 
 // STUB
 class ArtnetCommunicator{
+    public: 
+        ArtnetCommunicator(){
+            ofLog() << " ArtnetCommunicator stub intitialised.  Wont be able to ";
+        }
 
-    ArtnetCommunicator(){
-        ofLog() << " ArtnetCommunicator stub intitialised.  Wont be able to ";
-    }
+        void sendFrame(ofFbo & fbo){
 
-    void sendFrame(ofFbo & fbo){
+        }
 
-    }
-
-}
+};
 #endif
